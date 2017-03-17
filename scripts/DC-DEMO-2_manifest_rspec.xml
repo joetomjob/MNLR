@@ -1,0 +1,400 @@
+<?xml version="1.0" ?><rspec expires="2016-12-06T18:29:58Z" type="manifest" xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/manifest.xsd">  
+  <node client_id="node-0" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25541" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33083" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33083" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33083" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33083" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="02ba307b01d2" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25552">      <ip address="10.10.1.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="02ee38ce9301" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25555">      <ip address="10.10.2.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="026e9d4afbd4" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25562">      <ip address="10.10.4.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-9" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth2" mac_address="026f72b791ce" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25565">      <ip address="10.10.5.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-19"/>    <host name="node-0.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-1" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25522" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33084" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33084" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33084" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33084" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" mac_address="028786733a2c" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25556">      <ip address="10.10.2.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" mac_address="021684c57b7f" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25558">      <ip address="10.10.3.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-23" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02d254eae79b" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25586">      <ip address="10.10.12.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-25" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02777fc7426a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25589">      <ip address="10.10.13.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-31"/>    <host name="node-1.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-2" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25543" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33085" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33085" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33085" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33085" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="020ef42ffd7e" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25553">      <ip address="10.10.1.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="0217d759497d" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25559">      <ip address="10.10.3.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-41" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="02ce00750362" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25613">      <ip address="10.10.21.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-49" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="02ee8e456aa4" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25625">      <ip address="10.10.25.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-55" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="02e41a922560" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25634">      <ip address="10.10.28.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-21"/>    <host name="node-2.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-3" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25536" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33088" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33088" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33088" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33088" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" mac_address="02f7ea03dc35" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25561">      <ip address="10.10.4.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-11" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02c9a0f42297" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25568">      <ip address="10.10.6.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-13" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" mac_address="025514c65564" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25571">      <ip address="10.10.7.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-32"/>    <host name="node-3.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-4" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25537" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33089" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33089" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33089" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33089" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-8" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" mac_address="0235f3b8d954" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25564">      <ip address="10.10.5.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-15" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" mac_address="024c3df933a3" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25574">      <ip address="10.10.8.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-17" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="0291047751d7" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25577">      <ip address="10.10.9.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-33"/>    <host name="node-4.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-5" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25538" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33090" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33090" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33090" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33090" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-10" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02afd9ee7c7e" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25567">      <ip address="10.10.6.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-19" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02d4e8aeacf3" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25580">      <ip address="10.10.10.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-34"/>    <host name="node-5.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-6" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25548" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33090" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33090" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33090" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33090" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-12" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="02c52b273433" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25570">      <ip address="10.10.7.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-31"/>    <host name="node-6.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-7" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25549" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33091" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33091" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33091" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33091" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-14" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth2" mac_address="021c4c402146" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25573">      <ip address="10.10.8.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-32"/>    <host name="node-7.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-8" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25539" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33091" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33091" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33091" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33091" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-16" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02358807d7a3" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25576">      <ip address="10.10.9.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-21" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02dff72f1c56" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25583">      <ip address="10.10.11.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-37"/>    <host name="node-8.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-1" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25530" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33082" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33082" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33082" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33082" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-18" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02371697d98a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25579">      <ip address="10.10.10.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-18"/>    <host name="ipnode-1.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-2" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25531" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33083" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33083" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33083" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33083" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-20" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02d30b81947d" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25582">      <ip address="10.10.11.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-19"/>    <host name="ipnode-2.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-11" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25523" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33085" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33085" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33085" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33085" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-22" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="021ee1bc7343" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25585">      <ip address="10.10.12.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-27" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02aa5c3bfa31" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25592">      <ip address="10.10.14.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-29" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02a39338ea8e" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25595">      <ip address="10.10.15.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-30" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02a4a92a5333" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25597">      <ip address="10.10.16.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-32"/>    <host name="node-11.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-12" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25524" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33086" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33086" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33086" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33086" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-24" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02b6afe2d703" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25588">      <ip address="10.10.13.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-31" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="021431ab0d25" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25598">      <ip address="10.10.16.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-35" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="025210143d1f" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25604">      <ip address="10.10.18.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-37" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02dfb4f6c097" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25607">      <ip address="10.10.19.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-33"/>    <host name="node-12.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-13" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25525" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33087" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33087" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33087" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33087" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-26" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02f6b2fb71e7" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25591">      <ip address="10.10.14.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-34"/>    <host name="node-13.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-14" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25526" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33088" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33088" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33088" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33088" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-28" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="020325943ae9" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25594">      <ip address="10.10.15.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-33" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="0221d762dc54" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25601">      <ip address="10.10.17.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-35"/>    <host name="node-14.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-3" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25520" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33082" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33082" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33082" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33082" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-32" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="029cb4876a96" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25600">      <ip address="10.10.17.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-29"/>    <host name="ipnode-3.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-16" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25527" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33089" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33089" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33089" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33089" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-34" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="0207899c9e1c" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25603">      <ip address="10.10.18.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-39" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="022764472cd4" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25610">      <ip address="10.10.20.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-36"/>    <host name="node-16.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-17" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25528" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33090" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33090" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33090" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33090" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-36" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="02cf80321367" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25606">      <ip address="10.10.19.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-37"/>    <host name="node-17.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-4" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25521" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33083" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33083" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33083" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33083" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-38" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" mac_address="0224bcbb17ce" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25609">      <ip address="10.10.20.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-30"/>    <host name="ipnode-4.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-19" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25542" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33084" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33084" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33084" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33084" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-40" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="029288b1beac" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25612">      <ip address="10.10.21.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-43" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="02457d92c18b" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25616">      <ip address="10.10.22.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-45" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" mac_address="02c946a37679" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25619">      <ip address="10.10.23.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-20"/>    <host name="node-19.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-20" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25544" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33086" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33086" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33086" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33086" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-42" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="0209c0bcbea0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25615">      <ip address="10.10.22.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-47" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="020720013f6a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25622">      <ip address="10.10.24.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-25"/>    <host name="node-20.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-21" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc3" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25529" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33091" username="efgics"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33091" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33091" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc3.instageni.idre.ucla.edu" port="33091" username="ss9979"/>      <emulab:console server="pc3.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-44" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" mac_address="02f99262ffb4" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25618">      <ip address="10.10.23.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-38"/>    <host name="node-21.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-5" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25540" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33082" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33082" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33082" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33082" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-46" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="027523765ee6" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25621">      <ip address="10.10.24.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-15"/>    <host name="ipnode-5.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-23" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25545" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33087" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33087" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33087" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33087" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-48" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="0275d163528d" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25624">      <ip address="10.10.25.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-51" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="027131cdebfa" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25628">      <ip address="10.10.26.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-53" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="028afc3fdb7a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25631">      <ip address="10.10.27.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-28"/>    <host name="node-23.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-24" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25546" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33088" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33088" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33088" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33088" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-50" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="022ac0c95e0a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25627">      <ip address="10.10.26.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-29"/>    <host name="node-24.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-25" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc2" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25547" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33089" username="efgics"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33089" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33089" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc2.instageni.idre.ucla.edu" port="33089" username="ss9979"/>      <emulab:console server="pc2.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-52" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" mac_address="02a3566bf88c" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25630">      <ip address="10.10.27.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm2-30"/>    <host name="node-25.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-26" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25533" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33085" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33085" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33085" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33085" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-54" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" mac_address="0291ffdad944" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25633">      <ip address="10.10.28.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-56" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02151c16b7e9" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25636">      <ip address="10.10.29.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-59" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02ecf18a1028" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25640">      <ip address="10.10.30.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-21"/>    <host name="node-26.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-27" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25534" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33086" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33086" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33086" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33086" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-58" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02ee93a16277" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25639">      <ip address="10.10.30.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-30"/>    <host name="node-27.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="node-28" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25535" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33087" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33087" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33087" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33087" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-57" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="02b49599c850" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25637">      <ip address="10.10.29.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-61" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="025210e363f3" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25643">      <ip address="10.10.31.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-31"/>    <host name="node-28.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <node client_id="ipnode-6" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25532" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/VM-noTxt-centered.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="default-vm"/>    
+    <services>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33084" username="efgics"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33084" username="rxv6510"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33084" username="nxsvks"/>      <login authentication="ssh-keys" hostname="pc1.instageni.idre.ucla.edu" port="33084" username="ss9979"/>      <emulab:console server="pc1.instageni.idre.ucla.edu"/>    </services>    
+    <interface client_id="interface-60" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" mac_address="021414aef04a" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25642">      <ip address="10.10.31.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-20"/>    <host name="ipnode-6.DC-DEMO-2.ch-geni-net.instageni.idre.ucla.edu"/>  </node>  
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25551">    
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25552"/>    
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25553"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25554" vlantag="264">    
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25555"/>    
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25556"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-2" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25557" vlantag="265">    
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25558"/>    
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25559"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-3" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25560" vlantag="268">    
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25561"/>    
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25562"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-4" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25563" vlantag="266">    
+    <interface_ref client_id="interface-8" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25564"/>    
+    <interface_ref client_id="interface-9" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth2" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25565"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-5" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25566">    
+    <interface_ref client_id="interface-10" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25567"/>    
+    <interface_ref client_id="interface-11" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25568"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-6" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25569" vlantag="262">    
+    <interface_ref client_id="interface-12" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25570"/>    
+    <interface_ref client_id="interface-13" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25571"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-7" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25572" vlantag="269">    
+    <interface_ref client_id="interface-14" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth2" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25573"/>    
+    <interface_ref client_id="interface-15" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25574"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-8" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25575">    
+    <interface_ref client_id="interface-16" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25576"/>    
+    <interface_ref client_id="interface-17" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25577"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-9" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25578">    
+    <interface_ref client_id="interface-18" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25579"/>    
+    <interface_ref client_id="interface-19" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25580"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-10" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25581">    
+    <interface_ref client_id="interface-20" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25582"/>    
+    <interface_ref client_id="interface-21" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25583"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-11" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25584">    
+    <interface_ref client_id="interface-22" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25585"/>    
+    <interface_ref client_id="interface-23" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25586"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-12" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25587">    
+    <interface_ref client_id="interface-24" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25588"/>    
+    <interface_ref client_id="interface-25" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25589"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-13" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25590">    
+    <interface_ref client_id="interface-26" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25591"/>    
+    <interface_ref client_id="interface-27" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25592"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-14" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25593">    
+    <interface_ref client_id="interface-28" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25594"/>    
+    <interface_ref client_id="interface-29" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25595"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-15" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25596">    
+    <interface_ref client_id="interface-30" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25597"/>    
+    <interface_ref client_id="interface-31" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25598"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-16" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25599">    
+    <interface_ref client_id="interface-32" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25600"/>    
+    <interface_ref client_id="interface-33" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25601"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-17" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25602">    
+    <interface_ref client_id="interface-34" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25603"/>    
+    <interface_ref client_id="interface-35" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25604"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-18" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25605">    
+    <interface_ref client_id="interface-36" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25606"/>    
+    <interface_ref client_id="interface-37" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25607"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-19" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25608">    
+    <interface_ref client_id="interface-38" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25609"/>    
+    <interface_ref client_id="interface-39" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25610"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-20" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25611">    
+    <interface_ref client_id="interface-40" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25612"/>    
+    <interface_ref client_id="interface-41" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25613"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-21" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25614">    
+    <interface_ref client_id="interface-42" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25615"/>    
+    <interface_ref client_id="interface-43" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25616"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-22" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25617" vlantag="267">    
+    <interface_ref client_id="interface-44" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc3:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25618"/>    
+    <interface_ref client_id="interface-45" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25619"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-23" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25620">    
+    <interface_ref client_id="interface-46" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25621"/>    
+    <interface_ref client_id="interface-47" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25622"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-24" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25623">    
+    <interface_ref client_id="interface-48" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25624"/>    
+    <interface_ref client_id="interface-49" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25625"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-25" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25626">    
+    <interface_ref client_id="interface-50" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25627"/>    
+    <interface_ref client_id="interface-51" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25628"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-26" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25629">    
+    <interface_ref client_id="interface-52" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25630"/>    
+    <interface_ref client_id="interface-53" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25631"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-27" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25632" vlantag="263">    
+    <interface_ref client_id="interface-54" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25633"/>    
+    <interface_ref client_id="interface-55" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc2:eth1" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25634"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-28" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25635">    
+    <interface_ref client_id="interface-56" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25636"/>    
+    <interface_ref client_id="interface-57" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25637"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-29" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25638">    
+    <interface_ref client_id="interface-58" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25639"/>    
+    <interface_ref client_id="interface-59" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25640"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-30" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25641">    
+    <interface_ref client_id="interface-60" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25642"/>    
+    <interface_ref client_id="interface-61" component_id="urn:publicid:IDN+instageni.idre.ucla.edu+interface+pc1:lo0" sliver_id="urn:publicid:IDN+instageni.idre.ucla.edu+sliver+25643"/>    
+
+    <component_manager name="urn:publicid:IDN+instageni.idre.ucla.edu+authority+cm"/>    
+  </link>  
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">    <rs:location country="US" latitude="34.069444" longitude="-118.443056"/>  </rs:site_info></rspec>

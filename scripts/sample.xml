@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expires="2017-03-13T16:55:13Z" type="manifest" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/manifest.xsd">
+  <node xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" client_id="node-0" component_id="urn:publicid:IDN+instageni.illinois.edu+node+pc1" component_manager_id="urn:publicid:IDN+instageni.illinois.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+instageni.illinois.edu+sliver+65001">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/Xen-VM.svg"/>
+    <sliver_type name="emulab-xen">
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>
+    </sliver_type>
+    <services>
+      <login authentication="ssh-keys" hostname="pc1.instageni.illinois.edu" port="31546" username="jxj2428"/>
+      <login authentication="ssh-keys" hostname="pc1.instageni.illinois.edu" port="31546" username="efgics"/>
+      <login authentication="ssh-keys" hostname="pc1.instageni.illinois.edu" port="31546" username="rxv6510"/>
+      <login authentication="ssh-keys" hostname="pc1.instageni.illinois.edu" port="31546" username="nxsvks"/>
+      <login authentication="ssh-keys" hostname="pc1.instageni.illinois.edu" port="31546" username="ss9979"/>
+      <emulab:console server="pc1.instageni.illinois.edu"/>
+    </services>
+    <emulab:vnode hardware_type="pcvm" name="pcvm1-15"/>
+    <host name="node-0.BasicTestingJ8.ch-geni-net.instageni.illinois.edu"/>
+  </node>
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">
+    <rs:location country="US" latitude="40.109665" longitude="-88.204247"/>
+  </rs:site_info>
+</rspec>
